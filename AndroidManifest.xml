@@ -2164,6 +2164,8 @@
         <activity android:name=".crdroid.gestureanywhere.GestureAnywhereBuilderActivity" />
         <activity android:name=".crdroid.gestureanywhere.GestureAnywhereCreateGestureActivity" />
 
+        <activity android:name=".crdroid.DensityChanger" />
+
         <provider
             android:name=".search.SettingsSearchIndexablesProvider"
             android:authorities="com.android.settings"
