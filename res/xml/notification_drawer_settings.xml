@@ -82,6 +82,12 @@
             android:entries="@array/entries_screentimeout_widget"
             android:entryValues="@array/values_screentimeout_widget" />
 
+        <com.android.settings.cyanogenmod.SecureSettingSwitchPreference
+            android:key="qs_wifi_detail"
+            android:title="@string/qs_wifi_detail_title"
+            android:summary="@string/qs_wifi_detail_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>

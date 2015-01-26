@@ -654,5 +654,7 @@
     <!-- QS tiles -->
     <string name="qs_screentimeout_tile">Screen timeout</string>
     <string name="qs_screentimeout_mode_title">Screen timeout modes</string>
+    <string name="qs_wifi_detail_title">Detailed Wi\u2011Fi view</string>
+    <string name="qs_wifi_detail_summary">Enable detailed view for Wi\u2011Fi in Quick Settings</string>
 
 </resources>
