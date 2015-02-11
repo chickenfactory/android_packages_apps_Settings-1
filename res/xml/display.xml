@@ -78,6 +78,11 @@
                 android:entries="@array/screen_timeout_entries"
                 android:entryValues="@array/screen_timeout_values" />
 
+        <PreferenceScreen
+                android:key="doze_fragment"
+                android:title="@string/doze_title"
+                android:fragment="com.android.settings.temasek.ambientdisplay.AmbientSettings" />
+
         <!-- Cast screen -->
         <PreferenceScreen
                 android:key="wifi_display"
