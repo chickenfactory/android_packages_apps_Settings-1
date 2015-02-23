@@ -80,7 +80,6 @@ public class SoundSettings extends SettingsPreferenceFragment implements Indexab
     private static final String KEY_INCREASING_RING_VOLUME = "increasing_ring_volume";
     private static final String KEY_VOLUME_PANEL_TIMEOUT = "volume_panel_time_out";
     private static final String KEY_VIBRATION_INTENSITY = "vibration_intensity";
-    private static final String KEY_VIBRATE_ON_TOUCH = "vibrate_on_touch";
 
     private static final String KEY_VIBRATE_ON_TOUCH = "vibrate_on_touch";
 
