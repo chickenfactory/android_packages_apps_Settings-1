@@ -120,6 +120,15 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
             prefSet.removePreference(mCarrierLabel);
         }
 
+        // Network arrows
+        mNetworkArrows = (SwitchPreference) prefSet.findPreference(KEY_STATUS_BAR_NETWORK_ARROWS);
+        mNetworkArrows.setChecked(Settings.System.getInt(getActivity().getContentResolver(),
+            Settings.System.STATUS_BAR_SHOW_NETWORK_ACTIVITY, 1) == 1);
+        mNetworkArrows.setOnPreferenceChangeListener(this);
+        int networkArrows = Settings.System.getInt(getContentResolver(),
+                Settings.System.STATUS_BAR_SHOW_NETWORK_ACTIVITY, 1);
+        updateNetworkArrowsSummary(networkArrows);
+
         mStatusBarBattery = (ListPreference) findPreference(STATUS_BAR_BATTERY_STYLE);
         mStatusBarBatteryShowPercent =
                 (ListPreference) findPreference(STATUS_BAR_SHOW_BATTERY_PERCENT);

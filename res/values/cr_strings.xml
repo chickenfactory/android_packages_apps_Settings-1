@@ -792,4 +792,7 @@
     <string name="quick_settings_collapse_title">Auto close panel</string>
     <string name="quick_settings_collapse_summary">Close the Quick Settings panel upon toggle</string>
 
+    <!-- Data activity icons -->
+    <string name="status_bar_show_network_activity_title">Network activity arrows</string>
+
 </resources>
