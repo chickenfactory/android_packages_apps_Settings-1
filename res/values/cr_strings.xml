@@ -660,6 +660,15 @@
     <string name="qs_battery_saver_tile">Battery saver</string>
     <string name="qs_brightness_tile">Brightness</string>
 
+    <!-- QuickSettings colors -->
+    <string name="background_title">Background</string>
+    <string name="icon_title">Icon</string>
+    <string name="qs_colors_title">Custom Color Options</string>
+    <string name="reset_android">Android</string>
+    <string name="reset_swag">Swag</string>
+    <string name="colors_title">Colors</string>
+    <string name="text_title">Text</string>
+
     <!-- Heads Up -->
     <string name="category_heads_up">Heads up notifications</string>
     <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
