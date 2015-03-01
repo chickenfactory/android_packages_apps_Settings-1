@@ -36,12 +36,6 @@
         android:fragment="com.android.settings.crdroid.LockScreenSettings"
         android:title="@string/crdroid_lockscreen_title" />
 
-    <!-- Advanced options -->
-    <PreferenceScreen
-        android:key="sound_settings"
-        android:fragment="com.android.settings.crdroid.SoundSettings"
-        android:title="@string/sound_title" />
-
     <!-- Display -->
     <PreferenceScreen
         android:key="display_settings"
