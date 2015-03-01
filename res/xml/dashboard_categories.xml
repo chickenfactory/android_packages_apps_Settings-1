@@ -225,12 +225,21 @@
                 android:icon="@drawable/ic_settings_home"
                 />
 
-        <!-- Profiles -->
+        <!-- Status bar -->
         <dashboard-tile
-                android:id="@+id/profile_settings"
-                android:fragment="com.android.settings.profiles.ProfilesSettings"
-                android:title="@string/profiles_settings_title"
-                android:icon="@drawable/ic_settings_profiles"
+                android:id="@+id/status_bar_settings"
+	  		    android:title="@string/status_bar_title"
+			    android:fragment="com.android.settings.crdroid.StatusBarSettings"
+			    android:icon="@drawable/ic_settings_extdesk_hidenavbar"
+				/>
+
+		<!-- Notification drawer -->
+        <dashboard-tile
+                android:id="@+id/notification_drawer_settings"
+                android:title="@string/notification_drawer_title"
+                android:fragment="com.android.settings.cyanogenmod.NotificationDrawerSettings"
+                android:icon="@drawable/ic_settings_notification_drawer"
+                settings:advanced="true"
                 />
 
         <!-- crDroid custom -->
@@ -242,13 +251,12 @@
                 settings:advanced="true"
                 />
 
-        <!-- Notification drawer -->
+        <!-- Profiles -->
         <dashboard-tile
-                android:id="@+id/notification_drawer_settings"
-                android:title="@string/notification_drawer_title"
-                android:fragment="com.android.settings.cyanogenmod.NotificationDrawerSettings"
-                android:icon="@drawable/ic_settings_notification_drawer"
-                settings:advanced="true"
+                android:id="@+id/profile_settings"
+                android:fragment="com.android.settings.profiles.ProfilesSettings"
+                android:title="@string/profiles_settings_title"
+                android:icon="@drawable/ic_settings_profiles"
                 />
 
         <!-- Application Settings -->
