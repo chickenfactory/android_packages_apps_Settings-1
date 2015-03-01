@@ -160,6 +160,18 @@
     <string name="omniswitch_first_time_title">Information</string>
     <string name="omniswitch_first_time_message">Make sure you have enabled OmniSwitch. You can do this by using \"Settings\" below</string>
 
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Color picker</string>
+    <string name="press_color_to_apply">Press on color at right to apply</string>
+    <string name="arrow_right">→</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Set</string>
+    <string name="color_default">Default</string>
+
+    <!-- Status bar | Clock -->
+    <string name="status_bar_show_clock_second_title">Clock seconds</string>
+
     <!-- QS on secure lockscreen -->
     <string name="block_on_secure_keyguard_title">Disable on lockscreen</string>
     <string name="block_on_secure_keyguard_summary">Disable quick settings on secure lockscreen</string>
