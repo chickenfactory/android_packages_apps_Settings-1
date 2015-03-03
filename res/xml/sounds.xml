@@ -57,7 +57,7 @@
         <!-- Live volume steps -->
         <PreferenceScreen
                 android:key="volume_steps_settings"
-                android:fragment="com.android.settings.temasek.VolumeSteps"
+                android:fragment="com.android.settings.crdroid.VolumeSteps"
                 android:title="@string/volume_steps_title" />
         </PreferenceCategory>
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.temasek;
+package com.android.settings.crdroid;
 
 import android.content.ContentResolver;
 import android.content.Context;
