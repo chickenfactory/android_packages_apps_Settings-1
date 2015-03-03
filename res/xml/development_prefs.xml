@@ -32,6 +32,12 @@
             android:title="@*android:string/bugreport_title"
             android:dialogTitle="@*android:string/bugreport_title" />
 
+    <!-- Ad Blocker -->
+    <PreferenceScreen
+        android:key="hfm_settings"
+        android:title="@string/hfm_pref_screen_title"
+        android:fragment="com.android.settings.crdroid.hfm.HfmSettings" />
+
     <SwitchPreference
         android:key="advanced_reboot"
         android:title="@string/advanced_reboot_title"
